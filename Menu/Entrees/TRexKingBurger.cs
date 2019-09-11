@@ -48,5 +48,36 @@ namespace DinoDiner.Menu.Entrees
         {
             this.onion = false;
         }
+
+        public void HoldLettuce()
+        {
+            this.lettuce = false;
+        }
+
+        public void HoldTomato()
+        {
+            this.tomato = false;
+        }
+
+        public void HoldMayo()
+        {
+            this.mayo = false;
+        }
+
+        public void HoldPickle()
+        {
+            this.pickle = false;
+        }
+
+        public void HoldKetchup()
+        {
+            this.ketchup = false;
+        }
+        
+        public void HoldMustard()
+        {
+            this.mustard = false;
+        }
+
     }
 }
