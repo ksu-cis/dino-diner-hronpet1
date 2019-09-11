@@ -26,6 +26,7 @@ namespace DinoDiner.Menu.Entrees
         public void AddNugget()
         {
             nuggets++;
+            this.Price += 0.25;
         }
 	}
 }

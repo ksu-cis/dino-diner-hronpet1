@@ -43,12 +43,7 @@ namespace DinoDiner.Menu.Entrees
         {
             this.wholeWheatBun = false;
         }
-
-        public void HoldOnion()
-        {
-            this.onion = false;
-        }
-
+       
         public void HoldLettuce()
         {
             this.lettuce = false;
@@ -77,6 +72,11 @@ namespace DinoDiner.Menu.Entrees
         public void HoldMustard()
         {
             this.mustard = false;
+        }
+
+        public void HoldOnion()
+        {
+            this.onion = false;
         }
 
     }
